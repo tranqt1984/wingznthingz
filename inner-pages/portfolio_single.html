@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="HTML5 Template Artech Multi-Purpose themeforest"
+    />
+    <meta name="description" content="Artech - Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Restfolio</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      title="Favicon"
+      sizes="16x16"
+    />
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.min.css" />
+
+    <!-- bootstrap 5 rtl -->
+    <!-- <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.rtl.min.css"> -->
+
+    <!-- font family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome icons  -->
+    <link rel="stylesheet" href="../common/assets/css/lib/all.css" />
+    <!-- animate css  -->
+    <link rel="stylesheet" href="../common/assets/css/lib/animate.css" />
+    <!-- fancybox popup  -->
+    <link
+      rel="stylesheet"
+      href="../common/assets/css/lib/jquery.fancybox.css"
+    />
+    <!-- lity popup  -->
+    <link rel="stylesheet" href="../common/assets/css/lib/lity.css" />
+    <!-- swiper slider  -->
+    <link rel="stylesheet" href="../common/assets/css/lib/swiper8.min.css" />
+
+    <!-- common style -->
+    <link rel="stylesheet" href="../common/assets/css/common_style.css" />
+    <!-- home style -->
+    <link
+      rel="stylesheet"
+      href="../home1_restaurant_original/assets/css/home_1_style.css"
+    />
+
+    <!-- home style -->
+    <link rel="stylesheet" href="assets/css/inner_pages.css" />
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-105392568-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+
+  <body class="home-st1 single-portfolio-page-st1">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <div class="loader-wrap">
+      <svg
+        viewBox="0 0 1000 1000"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <defs>
+          <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #000" />
+            <stop offset="100%" style="stop-color: #555" />
+          </linearGradient>
+        </defs>
+        <path
+          id="svg"
+          d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"
+          fill="url(#path-gradient)"
+        ></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-logo cont mb-50">
+          <img src="assets/img/logo.svg" alt="" class="" />
+        </div>
+        <div class="load-text">
+          <span>R</span>
+          <span>E</span>
+          <span>S</span>
+          <span>T</span>
+          <span>F</span>
+          <span>o</span>
+          <span>L</span>
+          <span>I</span>
+          <span>O</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  Start fixed menu  -->
+    <div class="fixed-menu">
+      <div class="food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/chicken.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/chicken_peppers.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/meat.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/nachos_guacamole.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/pasta.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/salad.png" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="food-text-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken peppers</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>meat</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>nachos guacamole</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>pasta</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>salads</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="circle"></div>
+      <span class="clss"><i class="fas fa-times-circle"></i></span>
+    </div>
+    <!--  End fixed menu  -->
+
+    <div id="scrollsmoother-container">
+      <!--  Start navbar  -->
+      <div class="tc-topNav-st1">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <p class="welcome">Welcome to our restfolio restaurant</p>
+            </div>
+            <div class="col-lg-4">
+              <div class="logo th-50 my-4 my-lg-0">
+                <img src="assets/img/logo.svg" alt="" class="img-contain" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="social-links text-center text-lg-end">
+                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-behance"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------- -->
+      <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st1">
+        <div class="container-fluid">
+          <div class="nav-icons">
+            <div class="menu-item">
+              <a class="nav-link side_menu_btn" href="#"> Menu </a>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse order-last order-lg-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto sub-font">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Homes
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../home1_restaurant_original/index.html"
+                    >
+                      home restaurant Original</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../home2_coffee_shop/index.html"
+                    >
+                      home coffee shop
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../home3_sea_food/index.html"
+                    >
+                      home sea food
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../home4_bakery_house/index.html"
+                    >
+                      home bakery house
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../inner-pages/about.html">
+                      page about
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../inner-pages/contact.html">
+                      page contact
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../inner-pages/faq.html">
+                      page faq
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../inner-pages/portfolio.html"
+                    >
+                      page portfolio
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../inner-pages/portfolio_single.html"
+                    >
+                      page portfolio single
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../inner-pages/services.html"
+                    >
+                      page services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../inner-pages/404.html">
+                      page 404
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Documentation</a>
+              </li>
+            </ul>
+          </div>
+          <a
+            href="#"
+            class="butn bg-red1 text-white rounded-pill size-1 d-none d-lg-inline-block"
+          >
+            <span> Book a Table + </span>
+          </a>
+        </div>
+      </nav>
+      <!--  End navbar  -->
+
+      <!--  Start header  -->
+      <header class="tc-inner-header-st1">
+        <div class="container">
+          <div class="title">
+            <h2 class="fsz-50 mb-30">Single Portfolio</h2>
+            <div class="links">
+              <a href="#"> Home / </a> <a href="#"> Single Portfolio </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--  End header  -->
+
+      <!--Contents-->
+      <main>
+        <!--  Start about  -->
+        <section class="tc-sin-portfolio-st9">
+          <div class="container">
+            <div class="main-img">
+              <img src="assets/img/portfolio/s1.jpg" alt="" class="img-cover" />
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="main-side mt-50">
+                    <div class="title mb-30">
+                      <p class="fsz-16 mb-2">Recipes / Food</p>
+                      <h2 class="fsz-50">French fries ketchup</h2>
+                    </div>
+                    <div class="text fsz-16">
+                      Fusce eu eros nec felis venenatis fermentum sit amet eget
+                      turpis. Integer tempus massa actimulai arcu sollicitudin
+                      sollicitudin. Vivamus neque urna, iaculis et orci id,
+                      euismod tempor arcu semper girucongue nulla amet finibus.
+                      Proin finibus imperdiet nulla, quis euismod nunc gravida
+                      eget. Vestibulusidm iaculis nibh facilisis felis iaculis
+                      vestibulum. Curabitur purus nulla, bibendum vitae varius
+                      pulvinar, molestie in massa. Quisque ut venenatis nunc,
+                      vitae rutrum libero. Duis eget consectetur urna. Ut
+                      utlimisse aliquet magna. Nullam augue nulla, fermentum vel
+                      elit eu, posuere vehicula tellus. Orbundilisci varius
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Proin finibus imperdiet nulla,
+                      quis euismod nunc gravida eget. Vestibulum iaculis nibh
+                      facilisis felsidlis iaculis vestibulum. Curabitur purus
+                      nulla, bibendum vitae varius pulvinar, molestie in massa.
+                      Quisque ut venenatis nunc, vitae rutrum libero. Duis eget
+                      consectetur urna. Ut ut aliquet magna. Nullam augue nulla,
+                      fermentum vel elit eu, posuere vehicula tellus. Orci
+                      varius natoque penatibus et magnis parturi montes,
+                      nascetur ridiculus mus. Nam eget nisl non elit tempor
+                      dignissim nec non sapien.
+                    </div>
+                    <div class="sub-imgs">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="assets/img/portfolio/s2.jpg"
+                              alt=""
+                              class="img-cover"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="assets/img/portfolio/s3.jpg"
+                              alt=""
+                              class="img-cover"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="sub-title fsz-35 mt-40">
+                      Goals We can Provide.
+                    </h3>
+                    <div class="text fsz-16 mt-20">
+                      Proin finibus imperdiet nulla, quis euismod nunc gravida
+                      eget. Vestibulusidm iaculis nibh facilisis felis iaculis
+                      vestibulum. Curabitur purus nulla, bibendum vitae varius
+                      pulvinar, molestie in massa. Quisque ut venenatis nunc,
+                      vitae rutrum libero. Duis eget consectetur urna. Ut
+                      utlimisse aliquet magna. Nullam augue nulla, fermentum vel
+                      elit eu, posuere vehicula tellus. Orbundilisci varius
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </div>
+                    <ul class="fsz-16 text-white">
+                      <li class="mt-20">
+                        <span class="check me-2 cr-red1">
+                          <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span class="txt">
+                          One-time security check fee: $99.95
+                        </span>
+                      </li>
+                      <li class="mt-20">
+                        <span class="check me-2 cr-red1">
+                          <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span class="txt">
+                          Elite membership fee: $999.95 per month
+                        </span>
+                      </li>
+                    </ul>
+                    <h3 class="sub-title fsz-35 mt-40">Tips & Tricks</h3>
+                    <div class="text fsz-16 mt-20">
+                      Proin finibus imperdiet nulla, quis euismod nunc gravida
+                      eget. Vestibulusidm iaculis nibh facilisis felis iaculis
+                      vestibulum. Curabitur purus nulla, bibendum vitae varius
+                      pulvinar, molestie in massa.
+                    </div>
+                    <div class="cards">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="item mt-30">
+                            <div class="icon icon-85">
+                              <img src="assets/img/icons/p1.svg" alt="" />
+                            </div>
+                            <div class="inf pt-30">
+                              <h5 class="fsz-30">Fresh Product</h5>
+                              <div class="text fsz-16 mt-15">
+                                Ligula dapibus sem sagittis, eu efficitur tellus
+                                malesuada. In hac habitasse platea.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="item mt-30">
+                            <div class="icon icon-85">
+                              <img src="assets/img/icons/p2.svg" alt="" />
+                            </div>
+                            <div class="inf pt-30">
+                              <h5 class="fsz-30">Skilled Chefs</h5>
+                              <div class="text fsz-16 mt-15">
+                                Ligula dapibus sem sagittis, eu efficitur tellus
+                                malesuada. In hac habitasse platea.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="item mt-30">
+                            <div class="icon icon-85">
+                              <img src="assets/img/icons/p3.svg" alt="" />
+                            </div>
+                            <div class="inf pt-30">
+                              <h5 class="fsz-30">Drinks and Wines</h5>
+                              <div class="text fsz-16 mt-15">
+                                Ligula dapibus sem sagittis, eu efficitur tellus
+                                malesuada. In hac habitasse platea.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="sub-title fsz-35 mt-40">History</h3>
+                    <div class="text fsz-16 mt-20">
+                      Proin finibus imperdiet nulla, quis euismod nunc gravida
+                      eget. Vestibulusidm iaculis nibh facilisis felis iaculis
+                      vestibulum. Curabitur purus nulla, bibendum vitae varius
+                      pulvinar, molestie in massa. Quisque ut venenatis nunc,
+                      vitae rutrum libero. Duis eget consectetur urna. Ut
+                      utlimisse aliquet magna. Nullam augue nulla, fermentum vel
+                      elit eu, posuere vehicula tellus. Orbundilisci varius
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </div>
+                    <div class="qoat-card d-lg-flex mt-30">
+                      <div class="icon th-30 me-30 mt-2 flex-shrink-0">
+                        <img src="assets/img/icons/qt.svg" alt="" />
+                      </div>
+                      <div
+                        class="text fsz-21 fst-italic fw-400 text-white mt-4 mt-lg-0"
+                      >
+                        Nullam sit amet sem metus. Nam nec metus eudia viverra
+                        nec nibh. Donec euismod malesuada, quis egestas eget.
+                        Vivmus quam erat slliitudin.
+                      </div>
+                    </div>
+                    <div class="text fsz-16 mt-30">
+                      Proin finibus imperdiet nulla, quis euismod nunc gravida
+                      eget. Vestibulusidm iaculis nibh facilisis felis iaculis
+                      vestibulum. Curabitur purus nulla, bibendum vitae varius
+                      pulvinar, molestie in massa. Quisque ut venenatis nunc,
+                      vitae rutrum libero. Duis eget consectetur urna. Ut
+                      utlimisse aliquet magna. Nullam augue nulla, fermentum vel
+                      elit eu, posuere vehicula tellus. Orbundilisci varius
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </div>
+                    <div class="prev-next-wrapper">
+                      <a href="#" class="item">
+                        <span class="arrow me-3">
+                          <i class="fal fa-long-arrow-left"></i>
+                        </span>
+                        <div class="cont">
+                          <p class="fsz-16">Prev Project</p>
+                          <h6 class="fsz-20">Child Emergency</h6>
+                        </div>
+                      </a>
+                      <a href="#" class="item">
+                        <div class="cont">
+                          <p class="fsz-16">Next Project</p>
+                          <h6 class="fsz-20">Surgery Center</h6>
+                        </div>
+                        <span class="arrow ms-3">
+                          <i class="fal fa-long-arrow-right"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="widgets">
+                    <div class="info-widget mt-50">
+                      <div class="item mb-30">
+                        <h6 class="fsz-20 mb-3">Date:</h6>
+                        <p class="fsz-16">20 February, 2024</p>
+                      </div>
+                      <div class="item mb-30">
+                        <h6 class="fsz-20 mb-3">Category:</h6>
+                        <p class="fsz-16">Design, Development</p>
+                      </div>
+                      <div class="item mb-30">
+                        <h6 class="fsz-20 mb-3">Loction:</h6>
+                        <p class="fsz-16">1247/Plot No. 39, 15th Phase, USA</p>
+                      </div>
+                      <div class="item mb-30">
+                        <h6 class="fsz-20 mb-3">Client:</h6>
+                        <a href="#" class="fsz-16 cr-red1">
+                          www.restfolio.com
+                        </a>
+                      </div>
+                      <div class="item">
+                        <h6 class="fsz-20 mb-3">Social icon:</h6>
+                        <div class="social-icons">
+                          <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                          <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                          <a href="#"> <i class="fab fa-instagram"></i> </a>
+                          <a href="#"> <i class="fab fa-pinterest-p"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="banner d-block mt-50">
+                      <img src="assets/img/banner1.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  End about  -->
+
+        <!--  Start portfolio  -->
+        <div class="portfolio-page-st1">
+          <section class="tc-portfolio-st8 pb-120">
+            <div class="container">
+              <div
+                class="title text-center col-lg-6 mx-auto mb-50 wow fadeIn slow"
+                data-wow-delay="0.2s"
+              >
+                <div class="icon icon-50 mx-auto">
+                  <img
+                    src="assets/img/favicon.png"
+                    alt=""
+                    class="img-contain"
+                  />
+                </div>
+                <h2 class="fsz-50 mt-15">Our Related Products</h2>
+                <div class="text fsz-16 mt-20">
+                  Proin at lorem justo. Sed maximus risus hendrerit ipsum
+                  sodales, vel consequat dui ultrices. Vestibulum ante ipsum
+                  primis in faucibus orci luctus.
+                </div>
+              </div>
+              <div class="cards">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <a href="#" class="item">
+                      <div class="img">
+                        <img src="assets/img/portfolio/1.jpg" alt="" />
+                      </div>
+                      <div class="info text-center pt-30">
+                        <h5 class="title">French fries ketchup</h5>
+                        <p>Recipes / Food</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4">
+                    <a href="#" class="item">
+                      <div class="img">
+                        <img src="assets/img/portfolio/2.jpg" alt="" />
+                        <div class="tags">
+                          <span class="tag"> 20% Off </span>
+                        </div>
+                      </div>
+                      <div class="info text-center pt-30">
+                        <h5 class="title">tomato and sauces</h5>
+                        <p>Restaurant</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4">
+                    <a href="#" class="item">
+                      <div class="img">
+                        <img src="assets/img/portfolio/3.jpg" alt="" />
+                      </div>
+                      <div class="info text-center pt-30">
+                        <h5 class="title">frensh fries</h5>
+                        <p>Coffee / Food</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--  End portfolio  -->
+
+        <div class="cir-wrapper-st5">
+          <a href="#" class="rotate-box" data-speed="1" data-lag="0.4">
+            <div
+              class="rotate-circle fsz-30 rotate-text d-inline-block text-uppercase"
+            >
+              <svg class="textcircle" viewBox="0 0 500 500">
+                <defs>
+                  <path
+                    id="textcircle"
+                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                  ></path>
+                </defs>
+                <text>
+                  <textPath xlink:href="#textcircle" textLength="900">
+                    backery food corner restfolio
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+            <span class="icon">
+              <img src="assets/img/rotate_icon1.svg" alt="" />
+            </span>
+          </a>
+        </div>
+      </main>
+      <!--End-Contents-->
+
+      <!--  Start footer  -->
+      <footer class="tc-footer-st1">
+        <div class="container">
+          <div class="foot-suscribe text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <a href="#" class="foot-logo th-50 mb-20">
+                  <img src="assets/img/logo.png" alt="" />
+                </a>
+                <p class="fsz-16 px-lg-5 mx-lg-5">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Duis vel metus sit amet
+                  dolor finibus convallis.
+                </p>
+                <div class="from-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your email address..."
+                  />
+                  <a
+                    href="#"
+                    class="butn bg-red1 text-white rounded-pill size-1"
+                  >
+                    <span> Subscribe Now + </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Social</h6>
+                  <ul class="links">
+                    <li><a href="#"> Facebook </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                    <li><a href="#"> Instagram </a></li>
+                    <li><a href="#"> Pinterest </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">More Service</h6>
+                  <ul class="links">
+                    <li><a href="#"> About us </a></li>
+                    <li><a href="#"> Case Studies </a></li>
+                    <li><a href="#"> Privacy Policy </a></li>
+                    <li><a href="#"> Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Working Hours</h6>
+                  <ul class="links links-m0">
+                    <li><a href="#"> SUNDAY TO TUESDAY </a></li>
+                    <li><a href="#" class="mb-30"> 7.00am – 6.00pm </a></li>
+                    <li><a href="#"> FRIDAY TO SATURDAY </a></li>
+                    <li><a href="#"> 8.00am – 6.00pm </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Contact</h6>
+                  <ul class="links links-m0">
+                    <li>
+                      <a href="#" class="mb-30">
+                        785 15h Street - Sydney Harbor <br />
+                        Bridge of Sydney, #Australia.
+                      </a>
+                    </li>
+                    <li><a href="#"> contact@resfolio.com </a></li>
+                    <li><a href="#"> +444 3322 111 00 </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="foot">
+            <p>
+              <a href="#" class="text-white"> ThemesCamp </a>© 2024. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!--  End footer  -->
+    </div>
+
+    <!--  Start to top button  -->
+    <!-- <a href="#" class="to_top" id="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a> -->
+    <!--  End to top button  -->
+
+    <!--  request  -->
+    <script src="../common/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="../common/assets/js/lib/wow.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="../common/assets/js/lib/lity.js"></script>
+    <script src="../common/assets/js/lib/swiper8-bundle.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.counterup.js"></script>
+    <script src="../common/assets/js/lib/smoke.js"></script>
+    <script src="../common/assets/js/lib/parallaxie.js"></script>
+    <!-- === Gsap === -->
+    <script src="../common/assets/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/SplitText.min.js"></script>
+    <!-- === common === -->
+    <script src="../common/assets/js/common_js.js"></script>
+
+    <!-- ===== home scripts ===== -->
+    <script src="assets/js/inner_pages.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/* --------------- single portfolio page st1 --------------- */
+.single-portfolio-page-st1 {
+
+    .tc-sin-portfolio-st9 {
+        padding-top: 140px;
+
+        .main-img {
+            position: relative;
+            height: 650px;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+    }
+
+    .prev-next-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        margin-top: 50px;
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, transparent 50%, #fff4 50%);
+            background-size: 16px 2px, 100% 2px;
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, transparent 50%, #fff4 50%);
+            background-size: 16px 2px, 100% 2px;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            align-items: center;
+            .arrow {
+                padding: 5px 30px;
+                font-size: 18px;
+                border-radius: 30px;
+                background-color: #fff2;
+                color: #fff;
+                flex-shrink: 0;
+            }
+            &:hover {
+                .arrow {
+                    background-color: var(--cr-red1);
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .widgets {
+        .info-widget {
+            position: relative;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: #0005;
+            .social-icons {
+                a {
+                    font-size: 16px;
+                    margin-inline-end: 20px;
+                    &:hover {
+                        color: var(--cr-red1);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .single-portfolio-page-st1 {
+
+    }
+}

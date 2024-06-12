@@ -1,0 +1,71 @@
+/* --------------- contact page st1 --------------- */
+.contact-page-st1 {
+
+
+    /* --------------- map-st7 --------------- */
+    .tc-contact-st7 {
+        position: relative;
+        padding: 140px 0;
+
+        .map {
+            position: relative;
+            height: 700px;
+            border-radius: 20px;
+            overflow: hidden;
+            iframe {
+                filter: grayscale(1);
+            }
+        }
+
+        .contact {
+            position: relative;
+            margin-top: 100px;
+            .contact-cards {
+                .inf-item {
+                    position: relative;
+                    display: flex;
+                    margin-top: 40px;
+                    .icon {
+                        height: 35px;
+                        margin-inline-end: 15px;
+                        flex-shrink: 0;
+                        margin-top: 10px;
+                    }
+                    h6 {
+                        line-height: 2;
+                    }
+                }
+            }
+            .contact-form {
+                position: relative;
+                padding: 45px;
+                background-color: #1b1b1b;
+                border-radius: 20px;
+                .form-group {
+                    margin-top: 30px;
+                    .form-control {
+                        border: 0;
+                        border-bottom: 1px solid #fff2;
+                        border-radius: 0;
+                        background-color: transparent;
+                        padding: 0;
+                        color: #fff;
+                        &::placeholder {
+                            color: #ababab;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .contact-page-st1 {
+
+    }
+}

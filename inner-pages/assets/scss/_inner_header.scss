@@ -1,0 +1,28 @@
+/* --------------- tc-inner-header-st1 --------------- */
+.tc-inner-header-st1 {
+    position: relative;
+    padding: 160px 0;
+    background-image: url(../img/inner_bg.jpg);
+    background-size: cover;
+
+    .title {
+        position: relative;
+        text-align: center;
+        .links {
+            a {
+                font-size: 16px;
+                color: var(--cr-red1);
+                &:last-of-type {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-inner-header-st1 {
+
+    }
+}

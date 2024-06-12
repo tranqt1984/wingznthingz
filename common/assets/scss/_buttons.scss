@@ -1,0 +1,36 @@
+/* --------------- buttons style --------------- */
+.butn {
+    padding: 12px 35px;
+    transition: all 0.2s ease;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    // font-weight: 500;
+    font-family: "Oswald", sans-serif;
+
+    &.md-butn {
+        padding: 10px 25px;
+    }
+
+    &:hover {
+        // box-shadow: inset 0px 0px 50px #0003 , 4px 5px 0 #0005;
+        // box-shadow: 4px 5px 0 #0005;
+        box-shadow: 7px 10px 15px #0004;
+        transform: translateY(-2px);
+    }
+
+    &.size-1 {
+        width: 170px;
+        padding: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .butn-1 {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+}
