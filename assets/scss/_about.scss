@@ -1,0 +1,203 @@
+/* --------------- about st3 --------------- */
+.tc-about-st3 {
+    position: relative;
+    padding-bottom: 140px;
+    background-color: #171717;
+    overflow: hidden;
+
+    @media (min-width: 1400px) {
+        padding-inline-end: calc((100vw - 1320px) / 2 );
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1650px;
+            padding: 0;
+        }
+    }
+
+    .imgs {
+        .img1 {
+            position: relative;
+            height: 425px;
+        }
+    }
+
+    .info {
+        position: relative;
+        padding-top: 140px;
+        .icon-list {
+            position: relative;
+            padding-top: 30px;
+            li {
+                display: flex;
+                align-items: center;
+                margin: 25px 0;
+                .icon {
+                    width: 32px;
+                    height: 32px;
+                    margin-inline-end: 15px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 100px auto 0;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 90px;
+            width: 90px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: #fff;
+            border: 1px solid #fff2;
+        }
+
+        .rotate-circle svg {
+            width: 200px;
+            height: 200px;
+            fill: #fff;
+            transform: scale(1.2);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .video-card {
+        position: relative;
+        margin-top: 60px;
+        .img {
+            position: relative;
+            height: 360px;
+            overflow: hidden;
+        }
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: var(--cr-orange1);
+            border-radius: 50%;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            color: #fff;
+            font-size: 25px;
+            outline: 10px solid #bd967522;
+        }
+    }
+
+
+    .lines {
+        position: absolute;
+        top: 0;
+        right: 70px;
+        width: 100px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        span {
+            width: 1px;
+            height: 100%;
+            background-color: var(--cr-orange1);
+            transform: rotate(-45deg);
+            transform-origin: top;
+        }
+    }
+
+    .testimonials {
+        position: relative;
+        overflow: hidden;
+        margin-top: 60px;
+    
+        .testimonials-slider {
+            position: relative;
+            overflow: hidden;
+    
+        }
+        
+        .title {
+            position: relative;
+            h2 {
+                position: relative;
+                padding-bottom: 30px;
+                border-bottom: 1px dashed var(--cr-orange1);
+                display: flex;
+                align-items: center;
+                .icon {
+                    height: 30px;
+                    margin-inline-end: 20px;
+                }
+            }
+        }
+    
+        .main-text {
+            font-size: 24px;
+            font-style: italic;
+        }
+    
+        .user-inf {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            .avatar {
+                width: 85px;
+                height: 85px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-inline-end: 30px;
+                flex-shrink: 0;
+            }
+        }
+    
+    }
+
+    .shap {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st3 {
+        .info {
+            padding-top: 40px;
+        }
+        .video-card .play-btn {
+            left: 50%;
+        }
+    }
+}

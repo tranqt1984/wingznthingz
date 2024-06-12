@@ -1,0 +1,54 @@
+/* --------------- services st3 --------------- */
+.tc-services-st3 {
+    position: relative;
+    padding: 140px 0;
+
+    .services-slider {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 80px;
+    }
+
+    .service-card {
+        position: relative;
+        padding: 0 30px;
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background-image: linear-gradient(to bottom, #fff2, transparent);
+        }
+        .icon {
+            height: 120px;
+            margin-bottom: 40px;
+            img {
+                filter: grayscale(1);
+                transition: all 0.3s ease;
+            }
+        }
+
+        &:hover {
+            &::before {
+                background-image: linear-gradient(to bottom, var(--cr-orange1), transparent);
+            }
+            .icon {
+                img {
+                    filter: grayscale(0);
+                }
+            }
+            .more-link {
+                color: var(--cr-orange1);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-st3 {
+
+    }
+}

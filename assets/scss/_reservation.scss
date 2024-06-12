@@ -1,0 +1,62 @@
+/* --------------- reservation st3 --------------- */
+.tc-reservation-st3 {
+    position: relative;
+
+    .vec3 {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        max-width: 18%;
+    }
+
+    .reservation-card {
+        position: relative;
+        padding: 40px 15px;
+        background-color: var(--cr-dark1);
+        border-radius: 30px;
+        overflow: hidden;
+        .bg {
+            position: absolute;
+            content: "";
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .title {
+            position: relative;
+            z-index: 20;
+            margin-bottom: 50px;
+        }
+
+        .form {
+            position: relative;
+            z-index: 20;
+            .form-group {
+                margin-bottom: 10px;
+            }
+    
+            .form-control {
+                border: 1px solid #fff1;
+                border-radius: 0;
+                background-color: var(--cr-dark1);
+                min-height: 50px;
+                color: #999;
+                &::placeholder {
+                    color: #999;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-reservation-st3 {
+
+    }
+}
