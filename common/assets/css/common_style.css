@@ -4,7 +4,7 @@
 :root {
   --cr-red1: #d12d2d;
   --cr-brown1: #bd9675;
-  --cr-orange1: #fe7f32;
+  --cr-yellow: #eecc2b;
   --cr-dark1: #1b1b1b;
   --cr-light1: #b5b5b5;
   --cr-light2: #d9d9d9;
@@ -162,24 +162,25 @@
 }
 
 .cr-orange1 {
-  color: var(--cr-orange1) !important;
+  color: var(--cr-yellow) !important;
 }
 
 .bg-orange1 {
-  background: var(--cr-orange1) !important;
+  background: var(--cr-yellow) !important;
+  color: #000 !important;
 }
 
 .border-orange1 {
-  border-color: var(--cr-orange1) !important;
+  border-color: var(--cr-yellow) !important;
 }
 
 .hover-orange1:hover {
-  color: var(--cr-orange1) !important;
+  color: var(--cr-yellow) !important;
 }
 
 .hover-bg-orange1:hover {
-  background: var(--cr-orange1) !important;
-  border-color: var(--cr-orange1) !important;
+  background: var(--cr-yellow) !important;
+  border-color: var(--cr-yellow) !important;
   color: #fff !important;
 }
 .hover-bg-orange1:hover * {
@@ -2288,6 +2289,10 @@ input:focus {
 
 .fsz-14 {
   font-size: 14px !important;
+}
+
+.white {
+  color: #fff;
 }
 
 .fsz-15 {

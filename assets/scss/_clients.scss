@@ -1,56 +1,54 @@
 /* --------------- clients st3 --------------- */
 .tc-clients-st3 {
+  position: relative;
+  padding-bottom: 140px;
+  overflow: hidden;
+
+  .title {
     position: relative;
-    padding-bottom: 140px;
-    overflow: hidden;
-
-    .title {
-        position: relative;
-        text-align: center;
-        &::before {
-            position: absolute;
-            content: "";
-            left: 0;
-            top: 50%;
-            width: 100%;
-            height: 1px;
-            border-top: 1px dashed #fff2;
-        }
-        .txt {
-            position: relative;
-            font-size: 24px;
-            padding: 10px 40px;
-            color: #fff;
-            background-color: var(--cr-orange1);
-            border-radius: 50px;
-            font-weight: 400;
-            z-index: 20;
-        }
+    text-align: center;
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+      border-top: 1px dashed #fff2;
     }
-
-    .brand {
-        position: relative;
-        height: 70px;
-        width: 100%;
-        margin-top: 60px;
-        filter: grayscale(1);
-        opacity: 0.4;
-        transition: all 0.3s ease;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        &:hover {
-            filter: grayscale(0);
-            opacity: 1;
-        }
+    .txt {
+      position: relative;
+      font-size: 24px;
+      padding: 10px 40px;
+      color: #fff;
+      background-color: var(--cr-yellow);
+      border-radius: 50px;
+      font-weight: 400;
+      z-index: 20;
     }
+  }
 
+  .brand {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    margin-top: 60px;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .tc-clients-st3 {
-
-    }
+  .tc-clients-st3 {
+  }
 }

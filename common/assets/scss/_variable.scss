@@ -1,224 +1,209 @@
-
-
 /* --------------- variable --------------- */
-:root{
-    --cr-red1:#D12D2D;
-    --cr-brown1:#bd9675;
-    --cr-orange1:#FE7F32;
-    --cr-dark1:#1b1b1b;
-    --cr-light1:#b5b5b5;
-    --cr-light2:#D9D9D9;
+:root {
+  --cr-red1: #d12d2d;
+  --cr-brown1: #bd9675;
+  --cr-yellow: #eecc2b;
+  --cr-dark1: #1b1b1b;
+  --cr-yellow: #eecc2b;
+  --cr-light1: #b5b5b5;
+  --cr-light2: #d9d9d9;
 }
-  
-// ------------------ colors -------------------
 
+// ------------------ colors -------------------
 
 // ------------------ red1 ------------------
 
 .cr-red1 {
-    color: var(--cr-red1) !important;
+  color: var(--cr-red1) !important;
 }
 
 .bg-red1 {
-    background: var(--cr-red1) !important;
+  background: var(--cr-red1) !important;
 }
 
 .border-red1 {
-    border-color: var(--cr-red1) !important;
+  border-color: var(--cr-red1) !important;
 }
 
 .hover-red1:hover {
-    color: var(--cr-red1) !important;
-} 
-
-.hover-bg-red1:hover {
-    background: var(--cr-red1) !important;
-    border-color: var(--cr-red1) !important;
-    color: #fff !important;
-    *{
-        color: #fff;
-    }
+  color: var(--cr-red1) !important;
 }
 
+.hover-bg-red1:hover {
+  background: var(--cr-red1) !important;
+  border-color: var(--cr-red1) !important;
+  color: #fff !important;
+  * {
+    color: #fff;
+  }
+}
 
 // ------------------ brown1 ------------------
 
 .cr-brown1 {
-    color: var(--cr-brown1) !important;
+  color: var(--cr-brown1) !important;
 }
 
 .bg-brown1 {
-    background: var(--cr-brown1) !important;
+  background: var(--cr-brown1) !important;
 }
 
 .border-brown1 {
-    border-color: var(--cr-brown1) !important;
+  border-color: var(--cr-brown1) !important;
 }
 
 .hover-brown1:hover {
-    color: var(--cr-brown1) !important;
-} 
-
-.hover-bg-brown1:hover {
-    background: var(--cr-brown1) !important;
-    border-color: var(--cr-brown1) !important;
-    color: #fff !important;
-    *{
-        color: #fff;
-    }
+  color: var(--cr-brown1) !important;
 }
 
+.hover-bg-brown1:hover {
+  background: var(--cr-brown1) !important;
+  border-color: var(--cr-brown1) !important;
+  color: #fff !important;
+  * {
+    color: #fff;
+  }
+}
 
 // ------------------ orange1 ------------------
 
 .cr-orange1 {
-    color: var(--cr-orange1) !important;
+  color: var(--cr-yellow) !important;
 }
 
 .bg-orange1 {
-    background: var(--cr-orange1) !important;
+  background: var(--cr-yellow) !important;
 }
 
 .border-orange1 {
-    border-color: var(--cr-orange1) !important;
+  border-color: var(--cr-yellow) !important;
 }
 
 .hover-orange1:hover {
-    color: var(--cr-orange1) !important;
-} 
-
-.hover-bg-orange1:hover {
-    background: var(--cr-orange1) !important;
-    border-color: var(--cr-orange1) !important;
-    color: #fff !important;
-    *{
-        color: #fff;
-    }
+  color: var(--cr-yellow) !important;
 }
 
+.hover-bg-orange1:hover {
+  background: var(--cr-yellow) !important;
+  border-color: var(--cr-yellow) !important;
+  color: #fff !important;
+  * {
+    color: #fff;
+  }
+}
 
 // ------------------ dark1 ------------------
 
 .cr-dark1 {
-    color: var(--cr-dark1) !important;
+  color: var(--cr-dark1) !important;
 }
 
 .bg-dark1 {
-    background: var(--cr-dark1) !important;
+  background: var(--cr-dark1) !important;
 }
 
 .border-dark1 {
-    border-color: var(--cr-dark1) !important;
+  border-color: var(--cr-dark1) !important;
 }
 
 .hover-dark1:hover {
-    color: var(--cr-dark1) !important;
-} 
-
-.hover-bg-dark1:hover {
-    background: var(--cr-dark1) !important;
-    border-color: var(--cr-dark1) !important;
-    color: #fff !important;
-    *{
-        color: #fff;
-    }
+  color: var(--cr-dark1) !important;
 }
 
+.hover-bg-dark1:hover {
+  background: var(--cr-dark1) !important;
+  border-color: var(--cr-dark1) !important;
+  color: #fff !important;
+  * {
+    color: #fff;
+  }
+}
 
 // ------------------ light1 ------------------
 
 .cr-light1 {
-    color: var(--cr-light1) !important;
+  color: var(--cr-light1) !important;
 }
 
 .bg-light1 {
-    background: var(--cr-light1) !important;
+  background: var(--cr-light1) !important;
 }
 
 .border-light1 {
-    border-color: var(--cr-light1) !important;
+  border-color: var(--cr-light1) !important;
 }
 
 .hover-light1:hover {
-    color: var(--cr-light1) !important;
-} 
-
-.hover-bg-light1:hover {
-    background: var(--cr-light1) !important;
-    border-color: var(--cr-light1) !important;
-    color: var(--cr-dark1) !important;
-    *{
-        color: var(--cr-dark1);
-    }
+  color: var(--cr-light1) !important;
 }
 
+.hover-bg-light1:hover {
+  background: var(--cr-light1) !important;
+  border-color: var(--cr-light1) !important;
+  color: var(--cr-dark1) !important;
+  * {
+    color: var(--cr-dark1);
+  }
+}
 
 // ------------------ light2 ------------------
 
 .cr-light2 {
-    color: var(--cr-light2) !important;
+  color: var(--cr-light2) !important;
 }
 
 .bg-light2 {
-    background: var(--cr-light2) !important;
+  background: var(--cr-light2) !important;
 }
 
 .border-light2 {
-    border-color: var(--cr-light2) !important;
+  border-color: var(--cr-light2) !important;
 }
 
 .hover-light2:hover {
-    color: var(--cr-light2) !important;
-} 
-
-.hover-bg-light2:hover {
-    background: var(--cr-light2) !important;
-    border-color: var(--cr-light2) !important;
-    color: var(--cr-dark1) !important;
-    *{
-        color: var(--cr-dark1);
-    }
+  color: var(--cr-light2) !important;
 }
 
+.hover-bg-light2:hover {
+  background: var(--cr-light2) !important;
+  border-color: var(--cr-light2) !important;
+  color: var(--cr-dark1) !important;
+  * {
+    color: var(--cr-dark1);
+  }
+}
 
 // ------------------ orange1 ------------------
 
-
-
 // ------------------ green1 ------------------
-
-
 
 // ------------------ dark1 ------------------
 
-
-
 // ----------- hovers -----------
-.hover-white:hover{
-    color: #fff !important;
+.hover-white:hover {
+  color: #fff !important;
 }
 
 .hover-bg-white:hover {
-    background-color: #fff !important;
-    color: #000 !important;
-    * {
-        color: #000;
-    }
+  background-color: #fff !important;
+  color: #000 !important;
+  * {
+    color: #000;
+  }
 }
 
-.hover-black:hover{
-    color: #000 !important;
+.hover-black:hover {
+  color: #000 !important;
 }
 
 .hover-bg-black:hover {
-    background-color: #000 !important;
-    color: #fff !important;
-    * {
-        color: #fff;
-    }
+  background-color: #000 !important;
+  color: #fff !important;
+  * {
+    color: #fff;
+  }
 }
 
-
 .border-000 {
-    border-color: #000;
+  border-color: #000;
 }
