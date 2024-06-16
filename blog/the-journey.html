@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="The official website of Wingz and Thingz where we serve specialty wings, tenders, waffles, fries, and lemonade."
+    />
+    <meta
+      name="description"
+      content="Discover Wingz and Thingz: Your go-to destination for mouthwatering wings, crispy fries, homestyle waffles, and more. Savor the flavor and experience culinary excellence today!"
+    />
+    <meta name="author" content="I AM TON TRAN" />
+    <title>Wingz and Thingz</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      title="Favicon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/all.css" />
+    <link rel="stylesheet" href="../common/assets/css/lib/animate.css" />
+    <link
+      rel="stylesheet"
+      href="../common/assets/css/lib/jquery.fancybox.css"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="../common/assets/css/lib/swiper8.min.css" />
+    <link rel="stylesheet" href="../common/assets/css/common_style.css" />
+    <link rel="stylesheet" href="../inner-pages/assets/css/inner_pages.css" />
+    <link rel="stylesheet" href="../assets/css/home_3_style.css" />
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-105392568-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+
+  <body class="home-st1 single-portfolio-page-st1">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <div class="loader-wrap">
+      <svg
+        viewBox="0 0 1000 1000"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <defs>
+          <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #000" />
+            <stop offset="100%" style="stop-color: #555" />
+          </linearGradient>
+        </defs>
+        <path
+          id="svg"
+          d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"
+          fill="url(#path-gradient)"
+        ></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text load-text-top">
+          <span>W</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span>Z</span>
+        </div>
+        <div class="load-logo cont">
+          <img src="../assets/img/chicken1.png" alt="" class="" />
+        </div>
+        <div class="load-text load-text-bottom">
+          <span>T</span>
+          <span>H</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span>Z</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  Start fixed menu  -->
+    <div class="fixed-menu">
+      <div class="food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/chicken.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/chicken_peppers.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/meat.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/nachos_guacamole.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/pasta.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/salad.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="food-text-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken peppers</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>meat</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>nachos guacamole</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>pasta</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>salads</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="circle"></div>
+      <span class="clss"><i class="fas fa-times-circle"></i></span>
+    </div>
+    <!--  End fixed menu  -->
+
+    <div id="scrollsmoother-container">
+      <!--Contents-->
+      <main>
+        <!--  Start about  -->
+        <section class="tc-sin-portfolio-st9">
+          <div class="container">
+            <div class="main-img">
+              <img
+                src="./img/store-front.jpg"
+                alt="Wingz and Thingz store front"
+                class="img-cover"
+              />
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="main-side mt-50">
+                    <div class="title mb-30">
+                      <h2 class="fsz-50">The Journey of Wingz and Thingz</h2>
+                    </div>
+                    <div class="text fsz-16">
+                      <p class="text fsz-16">
+                        In the tumultuous year of 2019, amidst the challenges
+                        and uncertainties brought forth by the pandemic, Anthony
+                        and his wife embarked on a journey that would transform
+                        their backyard hobby into a thriving business venture.
+                        Little did they know, their passion for flavorful wings
+                        would lead them to establish Wingz and Thingz, a
+                        culinary haven beloved by many today. The inception of
+                        Wingz and Thingz traces back to humble beginnings - a
+                        simple turkey fryer in the backyard. It was here that
+                        Anthony, spurred by encouragement from his AU players,
+                        began experimenting with recipes and perfecting his
+                        craft. With each sizzle and aroma that filled the air,
+                        the dream of owning a business took flight.
+                      </p>
+                      <br />
+                      <p class="text fsz-16">
+                        As the aroma of tantalizing wings wafted through the
+                        neighborhood, word quickly spread, and demand soared.
+                        What started as a backyard endeavor soon outgrew its
+                        confines, prompting Anthony and his wife to take the
+                        leap and turn their passion into a profession. Thus,
+                        Wingz and Thingz was born. From the outset, Wingz and
+                        Thingz set itself apart with its commitment to quality
+                        and innovation. Anthony's background as a coach
+                        instilled in him a spirit of perseverance and
+                        dedication, traits that he brought into the kitchen.
+                        Every batch of wings was meticulously crafted, each
+                        flavor profile carefully curated to tantalize taste buds
+                        and leave patrons craving for more.
+                      </p>
+                      <br />
+                      <p class="text fsz-16">
+                        But Wingz and Thingz was more than just about wings; it
+                        was about fostering a sense of community and
+                        camaraderie. With a menu boasting an array of delectable
+                        offerings, from crispy fries to homestyle waffles, Wingz
+                        and Thingz became a gathering place for friends and
+                        families alike. Here, laughter echoed, stories were
+                        shared, and memories were made over plates piled high
+                        with delicious fare. The journey from backyard fryer to
+                        bustling business was not without its challenges. The
+                        pandemic brought its own set of obstacles, forcing
+                        Anthony and his wife to adapt and innovate in order to
+                        survive. Yet, through perseverance and a steadfast
+                        commitment to their vision, Wingz and Thingz not only
+                        weathered the storm but emerged stronger than ever.
+                      </p>
+                      <br />
+                      <p class="text fsz-16">
+                        Today, Wingz and Thingz stands as a testament to the
+                        power of passion and perseverance. What began as a
+                        backyard experiment has blossomed into a beloved
+                        culinary institution, cherished by locals and visitors
+                        alike. Anthony and his wife's dedication to their craft
+                        and their community has earned them a loyal following
+                        and a reputation for excellence. As we look to the
+                        future, the journey of Wingz and Thingz serves as an
+                        inspiration to us all. It reminds us that with passion,
+                        determination, and a little bit of spice, anything is
+                        possible. So here's to Anthony, his wife, and the entire
+                        Wingz and Thingz family - may your wings continue to
+                        soar, and may your flavors continue to delight for years
+                        to come.
+                      </p>
+                    </div>
+                    <div class="sub-imgs">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="./img/inside-1.jpg"
+                              alt="inside Wingz and Thingz"
+                              class="img-contain"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="./img/inside-2.jpg"
+                              alt="inside Wingz and Thingz"
+                              class="img-contain"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  End about  -->
+      </main>
+      <!--End-Contents-->
+
+      <!--  Start footer  -->
+      <footer class="tc-footer-st3">
+        <div class="container">
+          <div class="foot-suscribe text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="from-group hide-mobile">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your email address..."
+                  />
+                  <a
+                    href="#"
+                    class="butn bg-orange1 text-white rounded-pill size-1"
+                  >
+                    <span> Subscribe </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links color-white">
+            <div class="row footer-row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Social</h6>
+                  <ul class="links">
+                    <li>
+                      <a href="https://www.facebook.com/Wingz&Thingz">
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/Wingzandthingz12">
+                        Instagram
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">More Service</h6>
+                  <ul class="links">
+                    <li><a href="#"> About us </a></li>
+                    <li><a href="#"> We're hiring! </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Working Hours</h6>
+                  <ul class="links links-m0">
+                    <li><a href="#"> Monday to Friday </a></li>
+                    <li><a href="#" class="mb-30"> 7:00am – 6:00pm </a></li>
+                    <li><a href="#"> Saturday to Sunday </a></li>
+                    <li><a href="#"> 8:00am – 6:00pm </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Contact</h6>
+                  <ul class="links links-m0">
+                    <li>
+                      <a href="#" class="mb-30">
+                        303 Pine Street<br />
+                        Mount Vernon, WA 98273
+                      </a>
+                    </li>
+                    <li><a href="#">info@wingzandthingz.net</a></li>
+                    <li><a href="#">425-123-1234</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="foot">
+            <p>
+              <a href="#" class="text-white"> Wingz and Thingz </a>©
+              <span class="year"></span>. All Rights Reserved.
+            </p>
+            <a href="https://iamtontran.com">
+              <img
+                src="https://magictouch-landscaping.com/images/img/ton-tran-logo.png"
+                alt="I AM TON TRAN logo"
+                class="ton-tran-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <img src="../assets/img/footer_imgs.png" alt="" class="vecs" />
+      </footer>
+      <!--  End footer  -->
+    </div>
+
+    <!--  Start to top button  -->
+    <!-- <a href="#" class="to_top" id="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a> -->
+    <!--  End to top button  -->
+
+    <!--  request  -->
+    <script src="../common/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="../common/assets/js/lib/wow.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="../common/assets/js/lib/lity.js"></script>
+    <script src="../common/assets/js/lib/swiper8-bundle.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.counterup.js"></script>
+    <script src="../common/assets/js/lib/smoke.js"></script>
+    <script src="../common/assets/js/lib/parallaxie.js"></script>
+    <!-- === Gsap === -->
+    <script src="../common/assets/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/SplitText.min.js"></script>
+    <!-- === common === -->
+    <script src="../common/assets/js/common_js.js"></script>
+
+    <!-- ===== home scripts ===== -->
+    <script src="assets/js/inner_pages.js"></script>
+  </body>
+</html>

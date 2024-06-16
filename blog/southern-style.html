@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="The official website of Wingz and Thingz where we serve specialty wings, tenders, waffles, fries, and lemonade."
+    />
+    <meta
+      name="description"
+      content="Discover Wingz and Thingz: Your go-to destination for mouthwatering wings, crispy fries, homestyle waffles, and more. Savor the flavor and experience culinary excellence today!"
+    />
+    <meta name="author" content="I AM TON TRAN" />
+    <title>Wingz and Thingz</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      title="Favicon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/all.css" />
+    <link rel="stylesheet" href="../common/assets/css/lib/animate.css" />
+    <link
+      rel="stylesheet"
+      href="../common/assets/css/lib/jquery.fancybox.css"
+    />
+    <link rel="stylesheet" href="../common/assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="../common/assets/css/lib/swiper8.min.css" />
+    <link rel="stylesheet" href="../common/assets/css/common_style.css" />
+    <link rel="stylesheet" href="../inner-pages/assets/css/inner_pages.css" />
+    <link rel="stylesheet" href="../assets/css/home_3_style.css" />
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-105392568-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+
+  <body class="home-st1 single-portfolio-page-st1">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <div class="loader-wrap">
+      <svg
+        viewBox="0 0 1000 1000"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <defs>
+          <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #000" />
+            <stop offset="100%" style="stop-color: #555" />
+          </linearGradient>
+        </defs>
+        <path
+          id="svg"
+          d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"
+          fill="url(#path-gradient)"
+        ></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text load-text-top">
+          <span>W</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span>Z</span>
+        </div>
+        <div class="load-logo cont">
+          <img src="../assets/img/chicken1.png" alt="" class="" />
+        </div>
+        <div class="load-text load-text-bottom">
+          <span>T</span>
+          <span>H</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span>Z</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  Start fixed menu  -->
+    <div class="fixed-menu">
+      <div class="food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/chicken.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/chicken_peppers.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/meat.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img
+                  src="../common/assets/img/menu_dishes/nachos_guacamole.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/pasta.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="dish-card">
+              <div class="img">
+                <img src="../common/assets/img/menu_dishes/salad.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="food-text-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken peppers</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>meat</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>nachos guacamole</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>pasta</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>salads</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="circle"></div>
+      <span class="clss"><i class="fas fa-times-circle"></i></span>
+    </div>
+    <!--  End fixed menu  -->
+
+    <div id="scrollsmoother-container">
+      <!--Contents-->
+      <main>
+        <!--  Start about  -->
+        <section class="tc-sin-portfolio-st9">
+          <div class="container">
+            <div class="main-img">
+              <img
+                src="./img/trailer4.jpg"
+                alt="Wingz and Thingz store front"
+                class="img-cover"
+              />
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="main-side mt-50">
+                    <div class="title mb-30">
+                      <h2 class="fsz-50">Unique Flavors and Southern Charm</h2>
+                    </div>
+                    <div class="text fsz-16">
+                      <p class="text fsz-16">
+                        At Wingz and Thingz, it's not just about the food—it's
+                        about the unique flavors and southern hospitality that
+                        set us apart. Every dish on our menu has a story and a
+                        carefully crafted flavor profile that keeps our
+                        customers coming back for more. Let's take a closer look
+                        at what makes Wingz and Thingz truly special.
+                      </p>
+                      <br />
+                      <h3>The OMG Wings: A Culinary Masterpiece</h3>
+                      <p class="text fsz-16">
+                        One of our standout offerings is the OMG Wings, a
+                        creation by Anthony's wife that has become a sensation.
+                        These wings are not just another menu item; they're an
+                        experience. Each bite delivers a burst of flavors that
+                        dance on your palate, leaving you wanting more. The
+                        secret blend of spices and the perfect balance of heat
+                        and sweetness make these wings an unforgettable treat.
+                        The OMG Wings are a testament to our commitment to
+                        creativity and culinary excellence.
+                      </p>
+                      <br />
+                      <h3>Garlic Fries: Silky, Soft Perfection</h3>
+                      <p class="text fsz-16">
+                        Our garlic fries are another customer favorite. These
+                        fries are not just seasoned; they are elevated to a
+                        whole new level of deliciousness. The silky, soft flavor
+                        of the garlic pairs perfectly with the crispy texture of
+                        the fries. Each fry is a delightful combination of
+                        crunch and flavor that's hard to resist. They're the
+                        perfect side to any meal or a satisfying snack on their
+                        own.
+                      </p>
+                      <br />
+                      <h3>Sweet Chili Tenders: Glossy and Irresistible</h3>
+                      <p class="text fsz-16">
+                        The sweet chili tenders at Wingz and Thingz are a visual
+                        and culinary delight. Coated in a glossy sweet chili
+                        sauce, these tenders are both sweet and spicy, creating
+                        a harmonious blend of flavors. The sauce is sticky and
+                        rich, clinging to the tender chicken in a way that makes
+                        every bite a burst of flavor. It's this attention to
+                        detail and flavor that makes our sweet chili tenders a
+                        standout dish.
+                      </p>
+                      <br />
+                      <h3>Buffalo Fries: Local Favorite</h3>
+                      <p class="text fsz-16">
+                        Our buffalo fries are a local favorite, and it's easy to
+                        see why. These fries have the perfect crunch on the
+                        outside and a soft, tender inside. Tossed in our
+                        signature buffalo sauce, they're a spicy, tangy delight
+                        that's hard to beat. The balance of textures and flavors
+                        makes them an addictive treat that our customers can't
+                        get enough of. Whether as a side or a main dish, buffalo
+                        fries never disappoint.
+                      </p>
+                      <br />
+                      <h3>Southern Style Lemonade: A Refreshing Delight</h3>
+                      <p class="text fsz-16">
+                        To wash down all this delicious food, our Southern style
+                        lemonade is the perfect choice. This refreshing beverage
+                        is a great way to quench your thirst, especially after
+                        enjoying our spicier dishes. Made with fresh lemons and
+                        just the right amount of sweetness, it's a delightful
+                        drink that complements our menu perfectly. It's another
+                        example of our commitment to southern hospitality and
+                        flavor.
+                      </p>
+                      <br />
+                      <h3>Traditional Southern Cooking: Crisp and Crunchy</h3>
+                      <p class="text fsz-16">
+                        At Wingz and Thingz, we pride ourselves on cooking the
+                        traditional way of the south. This means ensuring that
+                        our food is nice, crunchy, and crispy. We achieve this
+                        by frying with no batter, a technique that allows the
+                        natural flavors of the ingredients to shine through
+                        while maintaining a delightful crunch. This method of
+                        cooking is a hallmark of southern cuisine and is part of
+                        what makes our food so special.
+                      </p>
+                      <br />
+                      <h3>A Flavorful Experience</h3>
+                      <p class="text fsz-16">
+                        What truly sets Wingz and Thingz apart is our dedication
+                        to unique flavors and traditional southern cooking. From
+                        the innovative OMG wings to the perfectly seasoned
+                        garlic fries and the glossy sweet chili tenders, every
+                        item on our menu is crafted with care and passion. Our
+                        buffalo fries and southern style lemonade add to the
+                        experience, making every visit to Wingz and Thingz a
+                        delightful culinary journey. We invite you to come and
+                        experience the unique flavors and southern charm that
+                        make Wingz and Thingz special. Whether you're a
+                        first-time visitor or a loyal customer, we're sure
+                        you'll find something to love on our menu. So come on
+                        down, grab a plate, and savor the flavors that make us
+                        the best in town.
+                      </p>
+                    </div>
+                    <div class="sub-imgs">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="./img/trailer2.jpg"
+                              alt="inside Wingz and Thingz"
+                              class="img-contain"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div
+                            class="img th-500 radius-6 overflow-hidden mt-30"
+                          >
+                            <img
+                              src="./img/trailer3.jpg"
+                              alt="inside Wingz and Thingz"
+                              class="img-contain"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  End about  -->
+      </main>
+      <!--End-Contents-->
+
+      <!--  Start footer  -->
+      <footer class="tc-footer-st3">
+        <div class="container">
+          <div class="foot-suscribe text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="from-group hide-mobile">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your email address..."
+                  />
+                  <a
+                    href="#"
+                    class="butn bg-orange1 text-white rounded-pill size-1"
+                  >
+                    <span> Subscribe </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links color-white">
+            <div class="row footer-row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Social</h6>
+                  <ul class="links">
+                    <li>
+                      <a href="https://www.facebook.com/Wingz&Thingz">
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/Wingzandthingz12">
+                        Instagram
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">More Service</h6>
+                  <ul class="links">
+                    <li><a href="#"> About us </a></li>
+                    <li><a href="#"> We're hiring! </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Working Hours</h6>
+                  <ul class="links links-m0">
+                    <li><a href="#"> Monday to Friday </a></li>
+                    <li><a href="#" class="mb-30"> 7:00am – 6:00pm </a></li>
+                    <li><a href="#"> Saturday to Sunday </a></li>
+                    <li><a href="#"> 8:00am – 6:00pm </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Contact</h6>
+                  <ul class="links links-m0">
+                    <li>
+                      <a href="#" class="mb-30">
+                        303 Pine Street<br />
+                        Mount Vernon, WA 98273
+                      </a>
+                    </li>
+                    <li><a href="#">info@wingzandthingz.net</a></li>
+                    <li><a href="#">425-123-1234</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="foot">
+            <p>
+              <a href="#" class="text-white"> Wingz and Thingz </a>©
+              <span class="year"></span>. All Rights Reserved.
+            </p>
+            <a href="https://iamtontran.com">
+              <img
+                src="https://magictouch-landscaping.com/images/img/ton-tran-logo.png"
+                alt="I AM TON TRAN logo"
+                class="ton-tran-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <img src="../assets/img/footer_imgs.png" alt="" class="vecs" />
+      </footer>
+      <!--  End footer  -->
+    </div>
+
+    <!--  Start to top button  -->
+    <!-- <a href="#" class="to_top" id="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a> -->
+    <!--  End to top button  -->
+
+    <!--  request  -->
+    <script src="../common/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="../common/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="../common/assets/js/lib/wow.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="../common/assets/js/lib/lity.js"></script>
+    <script src="../common/assets/js/lib/swiper8-bundle.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="../common/assets/js/lib/jquery.counterup.js"></script>
+    <script src="../common/assets/js/lib/smoke.js"></script>
+    <script src="../common/assets/js/lib/parallaxie.js"></script>
+    <!-- === Gsap === -->
+    <script src="../common/assets/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/assets/js/gsap_lib/SplitText.min.js"></script>
+    <!-- === common === -->
+    <script src="../common/assets/js/common_js.js"></script>
+
+    <!-- ===== home scripts ===== -->
+    <script src="assets/js/inner_pages.js"></script>
+  </body>
+</html>

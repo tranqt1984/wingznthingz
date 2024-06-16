@@ -1,6 +1,83 @@
 @charset "UTF-8";
 /* ========= [ * page-home_1 ]  =========*/
 /* --------------- navbar st3 --------------- */
+
+@media (max-width: 991px) {
+  .hide-mobile {
+    display: none;
+  }
+  .footer-row .col-sm-6 {
+    width: 50%;
+  }
+  .tc-footer-st3 .foot-suscribe {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .foot {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ton-tran-logo {
+    margin: 0 !important;
+    position: relative;
+    bottom: 0.5rem;
+  }
+  .tc-about-st3 .video-card .img {
+    right: 230px;
+  }
+  .tc-about-st3 .video-card .play-btn {
+    left: 69px !important;
+  }
+  .video-card {
+    width: 650px;
+  }
+}
+
+.ton-tran-logo {
+  width: 1.875rem;
+  margin: 0.5rem 0 -0.5rem;
+}
+
+.color-yellow {
+  color: var(--cr-yellow);
+}
+
+.color-red {
+  color: var(--cr-red1);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.load-text-top {
+  top: 0.5rem;
+}
+
+.load-text-bottom {
+  bottom: 0.5rem;
+}
+
+.video-cursor {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.video-cover {
+  object-fit: contain;
+}
+
+.fa-long-arrow-up,
+.fa-long-arrow-down {
+  font-weight: bold;
+}
+
+.padding-x {
+  padding-inline: 2rem;
+}
+
 .tc-navbar-st3 {
   position: relative;
   height: 90px;
@@ -169,7 +246,8 @@
 }
 .tc-about-st3 .imgs .img1 {
   position: relative;
-  height: 425px;
+  height: 400px;
+  top: 4rem;
 }
 .tc-about-st3 .info {
   position: relative;
@@ -271,7 +349,7 @@
   left: 50%;
   width: 100px;
   height: 100px;
-  background-color: var(--cr-yellow);
+  background-color: var(--cr-red1);
   border-radius: 50%;
   border-radius: 50%;
   display: -webkit-inline-box;
@@ -570,7 +648,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 15px;
-  top: 35px;
+  top: 45px;
   left: 0;
 }
 .tc-menus-st3
@@ -605,7 +683,7 @@
 .tc-menus-st3 .menu-side .menu-card {
   position: relative;
   display: block;
-  margin-top: 40px;
+  margin-top: 28px;
 }
 .tc-menus-st3 .menu-side .menu-card .top-info {
   display: -webkit-box;
@@ -1105,7 +1183,7 @@
 }
 .tc-footer-st3 .footer-links {
   position: relative;
-  padding: 150px 0 75px;
+  padding: 4rem 1rem;
 }
 .tc-footer-st3 .links a {
   font-size: 16px;
